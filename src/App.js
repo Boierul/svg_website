@@ -4,9 +4,8 @@ import {useEffect, useRef} from "react";
 function App() {
     const ref = useRef(null);
 
-    useEffect(() => {
+    function performSVGAnimation() {
         let paths = ref.current.querySelectorAll('path');
-        console.log(paths)
 
         function fillSvgPaths() {
             let scrollPercentage =
@@ -32,10 +31,11 @@ function App() {
         return () => {
             window.removeEventListener('scroll', fillSvgPaths)
         };
+    }
+
+    useEffect(() => {
+        return performSVGAnimation();
     }, []);
-
-    // let paths = document.querySelectorAll('path');
-
 
     return (
         <div className="App">
