@@ -1,4 +1,4 @@
-#SVG website
+# SVG website
 
 An web application that dynamically generates a SVG via scrolling action. 
 
