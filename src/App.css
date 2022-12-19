@@ -1,14 +1,18 @@
+
+h1 {
+    color: #ffffff;
+    font-family: "Groupe", sans-serif;
+    background: #778eff;
+    text-shadow: 4px 3px 0 #778eff;
+}
+
 section {
     height: 100vh;
     display: grid;
     place-content: center;
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 5rem;
+    font-size: 4rem;
 }
 
-section:nth-of-type(2) {
-    background: rgb(232, 227, 214);
-}
 
 svg {
     width: 80%;
@@ -21,7 +25,7 @@ svg path {
     stroke-dasharray: 0;
     stroke-dashoffset: 0;
     stroke-width: .4;
-    stroke: #000;
+    stroke: #ffffff;
     fill: none;
-    /* transition: stroke-dashoffset 1s; */
+     transition: stroke-dashoffset 0.5s;
 }

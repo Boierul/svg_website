@@ -1,5 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/groupe');
+
 body {
   margin: 0;
   height: 100vh;
+}
+
+::-webkit-scrollbar {
+  width: 15px;
+  -webkit-overflow-scrolling: auto !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #778eff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(164, 177, 253, 0.68);
+  border-radius: 0.1em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3da58a;
 }
 

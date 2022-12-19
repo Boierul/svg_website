@@ -38,9 +38,12 @@ function App() {
     }, []);
 
     return (
-        <div className="App">
+        <div className="web" style={{
+            background: "#778eff",
+            backgroundSize: "cover",
+        }}>
             <section>
-                <h1>Airplane</h1>
+                <h1>Airplanes</h1>
             </section>
 
             <section>
